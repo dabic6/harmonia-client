@@ -521,11 +521,11 @@ input[type=color].ctrl-color {
 }
 
 /* client view */
-#toolbar,#panel,#edit-pill,#git-modal{display:none!important;}
+#toolbar,#panel,#edit-pill,#git-modal,#edit-fab{display:none!important;}
 #main{padding-top:0!important;margin-right:0!important;}
 [contenteditable]{outline:none!important;background:none!important;}
 </style>
-<style>.no-border::before { display:none !important; }</style><link href="chrome-extension://alhgpfoeiimagjlnfekdhkjlkiomcapa/js/css/inject.css" rel="stylesheet" type="text/css" data-apio="true"><link data-apio="true" rel="stylesheet" type="text/css" href="chrome-extension://alhgpfoeiimagjlnfekdhkjlkiomcapa/js/css/a_chrome-extension_inject_global_module_scss.css"><link data-apio="true" rel="stylesheet" type="text/css" href="chrome-extension://alhgpfoeiimagjlnfekdhkjlkiomcapa/js/css/a_chrome-extension_inject_core_components_OpenPopupButton_tsx.css"></head>
+<style>.no-border::before { display:none !important; }</style><link href="chrome-extension://alhgpfoeiimagjlnfekdhkjlkiomcapa/js/css/inject.css" rel="stylesheet" type="text/css" data-apio="true"><link data-apio="true" rel="stylesheet" type="text/css" href="chrome-extension://alhgpfoeiimagjlnfekdhkjlkiomcapa/js/css/a_chrome-extension_inject_global_module_scss.css"><link data-apio="true" rel="stylesheet" type="text/css" href="chrome-extension://alhgpfoeiimagjlnfekdhkjlkiomcapa/js/css/a_chrome-extension_inject_core_components_OpenPopupButton_tsx.css"><link type="text/css" rel="stylesheet" href="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/css/mcafee_fonts.css"></head>
 <body data-new-gr-c-s-check-loaded="14.1275.0" data-gr-ext-installed="" data-new-gr-c-s-loaded="14.1275.0">
 
 <!-- FLOATING EDIT TAB (right side, no top bar) -->
@@ -544,22 +544,22 @@ input[type=color].ctrl-color {
   <!-- HEADER -->
   <div class="hdr">
     <div class="hdr-logo" id="hdr-logo-wrap" onclick="document.getElementById('ul-logo').click()" title="Click to upload logo" style="cursor:pointer;position:relative;display:flex;align-items:center;justify-content:center;background:#1a1208;">
-  <img id="logo-hdr" src="uploads/untitled_20260303_231333.webp" alt="Logo" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 50%;" data-upload-path="uploads/untitled_20260303_231333.webp">
+  <img id="logo-hdr" src="uploads/untitled_20260304_100901.webp" alt="Logo" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 50%;" data-upload-path="uploads/untitled_20260304_100901.webp">
   <div id="logo-hdr-empty" style="display: none; flex-direction: column; align-items: center; justify-content: center; gap: 4px; pointer-events: none;">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgba(200,151,58,0.6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
     <span style="font-size:7px;color:rgba(200,151,58,0.5);letter-spacing:1px;font-family:'DM Sans',sans-serif;">LOGO</span>
   </div>
 </div>
-    <div class="hdr-kicker" id="hdr-kicker">Social Media Campaign Proposal · 2026</div>
-    <h1><span id="hdr-title-main">Harmonia</span> <em id="hdr-title-em">Caffe</em></h1>
-    <div class="hdr-sub" id="hdr-sub">Instagram Feed Strategy · Žarkovo, Beograd</div>
+    <div class="hdr-kicker" id="hdr-kicker" style="border-radius: 3px;">Social Media Campaign Proposal · 2026</div>
+    <h1><span id="hdr-title-main" style="border-radius: 3px;">Harmonia</span> <em id="hdr-title-em" style="border-radius: 3px;">Caffe</em></h1>
+    <div class="hdr-sub" id="hdr-sub" style="border-radius: 3px;">Instagram Feed Strategy · Žarkovo, Beograd</div>
   </div>
 
   <!-- BEFORE / AFTER SIDE BY SIDE -->
   <div class="sec">
-    <div class="sec-kicker" id="sec1-kicker">Pre i posle</div>
-    <div class="sec-title" id="sec1-title">Kako izgleda <em>uređen profil</em></div>
-    <div class="sec-desc" id="sec1-desc">Levo je trenutni profil. Desno je predlog — iste fotografije, ali složene tako da profil deluje prepoznatljivo i profesionalno.</div>
+    <div class="sec-kicker" id="sec1-kicker" style="border-radius: 3px;">Pre i posle</div>
+    <div class="sec-title" id="sec1-title" style="border-radius: 3px;">Kako izgleda <em>uređen profil</em></div>
+    <div class="sec-desc" id="sec1-desc" style="border-radius: 3px;">Levo je trenutni profil. Desno je predlog — fotografije, ali složene tako da profil deluje prepoznatljivo i profesionalno.</div>
 
     <div class="side-by-side">
 
@@ -592,11 +592,11 @@ input[type=color].ctrl-color {
             </div>
             <div class="ig-profile-section">
               <div class="ig-top-row">
-                <div class="ig-pic-wrap"><img src="uploads/untitled_20260303_231333.webp" alt="" data-upload-path="uploads/untitled_20260303_231333.webp"></div>
+                <div class="ig-pic-wrap"><img src="uploads/untitled_20260304_100901.webp" alt="" data-upload-path="uploads/untitled_20260304_100901.webp"></div>
                 <div class="ig-nums">
-                  <div class="ig-num"><span class="ig-num-val" id="after-posts">17</span><span class="ig-num-label">posts</span></div>
-                  <div class="ig-num"><span class="ig-num-val" id="after-followers">2218</span><span class="ig-num-label">followers</span></div>
-                  <div class="ig-num"><span class="ig-num-val" id="after-following">724</span><span class="ig-num-label">following</span></div>
+                  <div class="ig-num"><span class="ig-num-val" id="after-posts" style="border-radius: 3px;">17</span><span class="ig-num-label">posts</span></div>
+                  <div class="ig-num"><span class="ig-num-val" id="after-followers" style="border-radius: 3px;">2218</span><span class="ig-num-label">followers</span></div>
+                  <div class="ig-num"><span class="ig-num-val" id="after-following" style="border-radius: 3px;">724</span><span class="ig-num-label">following</span></div>
                 </div>
               </div>
               <div class="ig-bio">
@@ -609,13 +609,13 @@ input[type=color].ctrl-color {
               </div>
             </div>
             <div class="ig-action-row">
-              <button class="ig-btn-follow" fdprocessedid="qy0m49">Follow</button>
-              <button class="ig-btn-msg" fdprocessedid="jf2pv">Message</button>
-              <button class="ig-btn-contact" fdprocessedid="tfgzq">Contact</button>
-              <button class="ig-btn-add" fdprocessedid="8b6les">+</button>
+              <button class="ig-btn-follow" fdprocessedid="alruf">Follow</button>
+              <button class="ig-btn-msg" fdprocessedid="mzyuvh">Message</button>
+              <button class="ig-btn-contact" fdprocessedid="bfs34o">Contact</button>
+              <button class="ig-btn-add" fdprocessedid="bltt8">+</button>
             </div>
             <div class="ig-highlights">
-              <div class="ig-hl"><div class="ig-hl-ring"><img src="uploads/untitled_20260303_231333.webp" alt="" data-upload-path="uploads/untitled_20260303_231333.webp"></div><div class="ig-hl-label">☕</div></div>
+              <div class="ig-hl"><div class="ig-hl-ring"><img src="uploads/untitled_20260304_100901.webp" alt="" data-upload-path="uploads/untitled_20260304_100901.webp"></div><div class="ig-hl-label">☕</div></div>
               <div class="ig-hl"><div class="ig-hl-ring" style="background:#333;"></div><div class="ig-hl-label">svirke 🎸</div></div>
             </div>
             <div class="ig-tabs">
@@ -627,40 +627,40 @@ input[type=color].ctrl-color {
             <!-- NEW improved grid -->
             <div class="ig-grid">
               <!-- P1 coffee beans -->
-              <div class="ig-cell" style="aspect-ratio: 1 / 1; background: rgb(0, 0, 0);"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" loading="lazy" src="https://www.youtube-nocookie.com/embed/hx46pAWmfjQ" style="position: absolute; inset: 0px; width: 100%; height: 100%; border: 0px;"></iframe>
+              <div class="ig-cell" style="aspect-ratio: 1 / 1; background: rgb(0, 0, 0);"><video id="grid-img-1" src="uploads/reel_primer.mp4" data-upload-path="uploads/reel_primer.mp4" autoplay="" loop="" playsinline="" style="position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; display: block; filter: brightness(91%) saturate(120%) contrast(107%) sepia(0%);"></video>
                 
-                <div class="ov-dark" style="display: none;"></div>
-                <div class="ov-text" style="display: none;"><div class="ov-tag" id="p1-label-g">Premium</div></div>
+                <div class="ov-dark"></div>
+                <div class="ov-text"><div class="ov-tag" id="p1-label-g" style="border-radius: 3px;">Premium</div></div>
               <div class="reel-indicator" style="position: absolute; top: 6px; right: 6px; z-index: 10; opacity: 0.9; pointer-events: none;"><svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M21 3H3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm-7 14-5-3 5-3v6z"></path></svg></div></div>
               <!-- P2 quote -->
               <div class="ig-cell">
-                <img id="grid-img-2" src="uploads/pomelli-image-4_20260303_231424.webp" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; filter: brightness(55%) saturate(110%);" data-upload-path="uploads/pomelli-image-4_20260303_231424.webp">
+                <img id="grid-img-2" src="uploads/pomelli-image-4_20260304_100653.webp" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; filter: brightness(83%) saturate(110%);" data-upload-path="uploads/pomelli-image-4_20260304_100653.webp">
               </div>
               <div class="ig-cell">
-                <img id="grid-img-3" src="uploads/firefly_geminiflash_change-the-position-_20260303_231443.webp" alt="" style="display: block; width: 100%; height: 100%; object-fit: cover; position: absolute; inset: 0px; filter: brightness(62%) saturate(110%);" data-upload-path="uploads/firefly_geminiflash_change-the-position-_20260303_231443.webp">
-                <div class="promo-cell" id="grid-promo-3" style="width: 100%; height: 100%; position: absolute; inset: 0px; background: linear-gradient(rgba(5, 2, 0, 0.35) 0%, rgba(5, 2, 0, 0.55) 100%);">
-                  <div class="pc-badge" id="p3-badge-g">Četvrtak akcija</div>
+                <img id="grid-img-3" src="uploads/firefly_geminiflash_change-the-position-_20260304_100702.webp" alt="" style="display: block; width: 100%; height: 100%; object-fit: cover; position: absolute; inset: 0px; filter: brightness(95%) saturate(110%);" data-upload-path="uploads/firefly_geminiflash_change-the-position-_20260304_100702.webp">
+                <div class="promo-cell" id="grid-promo-3" style="width: 100%; height: 100%; position: absolute; inset: 0px; background: linear-gradient(rgba(5, 2, 0, 0.39) 0%, rgba(5, 2, 0, 0.59) 100%);">
+                  <div class="pc-badge" id="p3-badge-g" style="border-radius: 3px;">Četvrtak akcija</div>
                   <div class="pc-stars">✦ ✦ ✦</div>
-                  <div class="pc-day">Happy<br><em id="p3-day-g">Hour</em></div>
-                  <div class="pc-offer" id="p3-offer-g">Kafa + kisela voda</div>
-                  <div class="pc-time" id="p3-time-g">10:00 – 11:00</div>
+                  <div class="pc-day">Happy<br><em id="p3-day-g" style="border-radius: 3px;">Hour</em></div>
+                  <div class="pc-offer" id="p3-offer-g" style="border-radius: 3px;">Kafa + kisela voda</div>
+                  <div class="pc-time" id="p3-time-g" style="border-radius: 3px;">10:00 – 11:00</div>
                 </div>
               </div>
               <!-- P4 latte -->
               <div class="ig-cell">
-                <img id="grid-img-4" src="uploads/pomelli-image-7_20260303_231502.webp" alt="" style="filter:brightness(0.75) saturate(1.1) contrast(1.05);" data-upload-path="uploads/pomelli-image-7_20260303_231502.webp">
+                <img id="grid-img-4" src="uploads/pomelli-image-7_20260304_100714.webp" alt="" style="filter: brightness(91%) saturate(120%) contrast(107%) sepia(0%);" data-upload-path="uploads/pomelli-image-7_20260304_100714.webp">
                 <div class="ov-dark"></div>
-                <div class="ov-text"><div class="ov-quote" id="p4-quote-g">"Svaka šoljica priča za sebe."</div></div>
+                <div class="ov-text"><div class="ov-quote" id="p4-quote-g" style="border-radius: 3px;">"Svaka šoljica priča za sebe."</div></div>
               </div>
               <!-- P5 coffee -->
               <div class="ig-cell">
-                <img id="grid-img-5" src="uploads/pomelli-image-8_20260303_231516.webp" alt="" style="object-position:center 60%;filter:brightness(0.78) saturate(1.3) contrast(1.1);" data-upload-path="uploads/pomelli-image-8_20260303_231516.webp">
+                <img id="grid-img-5" src="uploads/pomelli-image-8_20260304_100725.webp" alt="" style="object-position: center 60%; filter: brightness(91%) saturate(120%) contrast(107%) sepia(0%);" data-upload-path="uploads/pomelli-image-8_20260304_100725.webp">
                 <div class="ov-dark"></div>
-                <div class="ov-text"><div class="ov-tag" id="p5-label-g">Rooster × Harmonia</div></div>
+                <div class="ov-text"><div class="ov-tag" id="p5-label-g" style="border-radius: 3px;">Rooster × Harmonia</div></div>
               </div>
               <!-- P6 quote -->
               <div class="ig-cell">
-                <img id="grid-img-6" src="uploads/img_9111_20260303_231528.webp" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; filter: brightness(53%) saturate(110%);" data-upload-path="uploads/img_9111_20260303_231528.webp">
+                <img id="grid-img-6" src="uploads/img_9111_20260304_100733.webp" alt="" style="width: 100%; height: 100%; object-fit: cover; display: block; filter: brightness(77%) saturate(110%);" data-upload-path="uploads/img_9111_20260304_100733.webp">
               </div>
             </div>
           </div>
@@ -672,102 +672,102 @@ input[type=color].ctrl-color {
 
   <!-- POST CARDS -->
   <div class="cards-sec">
-    <div class="sec-kicker" id="sec2-kicker">Predlog objava</div>
-    <div class="sec-title" id="sec2-title">6 <em>objava</em> za početak</div>
-    <div class="sec-desc" id="sec2-desc" style="margin-bottom:28px;">Ovo je predlog za prvih 6 postova. Svaki ima drugačiji cilj — neke prodaju, neke grade atmosferu, neke pozivaju ljude da dođu.</div>
+    <div class="sec-kicker" id="sec2-kicker" style="border-radius: 3px;">Predlog objava</div>
+    <div class="sec-title" id="sec2-title" style="border-radius: 3px;">6 <em>objava</em> za početak</div>
+    <div class="sec-desc" id="sec2-desc" style="margin-bottom: 28px; border-radius: 3px;">Ovo je predlog za prvih 6 postova. Svaki ima drugačiji cilj — neke prodaju, neke grade atmosferu, neke pozivaju ljude da dođu.</div>
     <div class="cards-grid">
 
       <!-- Card 1 -->
       <div class="card">
-        <div class="card-img" style="aspect-ratio: 9 / 16; background: rgb(0, 0, 0);"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" loading="lazy" src="https://www.youtube-nocookie.com/embed/hx46pAWmfjQ" style="position: absolute; inset: 0px; width: 100%; height: 100%; border: 0px;"></iframe>
+        <div class="card-img" style="aspect-ratio: 9 / 16; background: rgb(0, 0, 0);"><video id="card-img-1" src="uploads/reel_primer.mp4" data-upload-path="uploads/reel_primer.mp4" autoplay="" loop="" playsinline="" style="width: 100%; display: block; object-fit: contain; background: rgb(0, 0, 0); filter: brightness(91%) saturate(120%) contrast(107%) sepia(0%);"></video>
           
-          <div class="card-coffee-ov" style="display: none;"><div class="cc-label" id="p1-label-c">Premium</div></div>
+          <div class="card-coffee-ov"><div class="cc-label" id="p1-label-c" style="border-radius: 3px;">Premium</div></div>
         </div>
         <div class="card-body">
-          <div class="card-kicker">Coffee Close-Up · Post 1</div>
-          <div class="card-title" id="p1-title">Zrno po zrno, šoljica po šoljica.</div>
-          <div class="card-text" id="p1-cap">Mi smo zaljubljenici u kafu. Zato biramo samo Rooster — jer prava kafa počinje od pravog zrna. ☕</div>
-          <div class="card-tags" id="p1-tags">#harmonia #kafa #beograd #premiumkafa #rooster #coffeelovers #žarkovo</div>
+          <div class="card-kicker" id="p1-kicker" style="border-radius: 3px;">ReeL · Post 1</div>
+          <div class="card-title" id="p1-title" style="border-radius: 3px;">Zrno po zrno, šoljica po šoljica.</div>
+          <div class="card-text" id="p1-cap" style="border-radius: 3px;">Mi smo zaljubljenici u kafu. Zato biramo samo Rooster — jer prava kafa počinje od pravog zrna. ☕</div>
+          <div class="card-tags" id="p1-tags" style="border-radius: 3px;">#harmonia #kafa #beograd #premiumkafa #rooster #coffeelovers #žarkovo</div>
         </div>
       </div>
 
       <!-- Card 2 -->
       <div class="card">
         <div class="card-img">
-          <img id="card-img-2" src="uploads/pomelli-image-4_20260303_231424.webp" alt="" data-upload-path="uploads/pomelli-image-4_20260303_231424.webp" style="display: block; filter: brightness(55%) saturate(110%);">
+          <img id="card-img-2" src="uploads/pomelli-image-4_20260304_100653.webp" alt="" data-upload-path="uploads/pomelli-image-4_20260304_100653.webp" style="display: block; filter: brightness(83%) saturate(110%);">
         </div>
         <div class="card-body">
-          <div class="card-kicker">Foto · Post 2</div>
-          <div class="card-title" id="p2-title">Jutarnja kafa.</div>
-          <div class="card-text" id="p2-cap">Nema boljeg načina da počneš dan nego uz šoljicu Harmonia kafe. Dođi, sedi, udahni. 🌿</div>
-          <div class="card-tags" id="p2-tags">#jutro #kafa #harmonia #beograd #caffe #dobardan #jutarnjakafa</div>
+          <div class="card-kicker" id="p2-kicker" style="border-radius: 3px;">Foto · Post 2</div>
+          <div class="card-title" id="p2-title" style="border-radius: 3px;">Jutarnja kafa.</div>
+          <div class="card-text" id="p2-cap" style="border-radius: 3px;">Nema boljeg načina da počneš dan nego uz šoljicu Harmonia kafe. Dođi, sedi, udahni. 🌿</div>
+          <div class="card-tags" id="p2-tags" style="border-radius: 3px;">#jutro #kafa #harmonia #beograd #caffe #dobardan #jutarnjakafa</div>
         </div>
       </div>
 
       <!-- Card 3 -->
       <div class="card">
         <div class="card-img" style="position:relative;">
-          <img id="card-img-3" src="uploads/firefly_geminiflash_change-the-position-_20260303_231443.webp" alt="" style="width: 100%; height: 100%; object-fit: cover; position: absolute; inset: 0px; filter: brightness(62%) saturate(110%); display: block;" data-upload-path="uploads/firefly_geminiflash_change-the-position-_20260303_231443.webp">
-          <div class="card-promo" id="card-promo-3" style="background: linear-gradient(rgba(5, 2, 0, 0.35) 0%, rgba(5, 2, 0, 0.55) 100%);">
+          <img id="card-img-3" src="uploads/firefly_geminiflash_change-the-position-_20260304_100702.webp" alt="" style="width: 100%; height: 100%; object-fit: cover; position: absolute; inset: 0px; filter: brightness(95%) saturate(110%); display: block;" data-upload-path="uploads/firefly_geminiflash_change-the-position-_20260304_100702.webp">
+          <div class="card-promo" id="card-promo-3" style="background: linear-gradient(rgba(5, 2, 0, 0.39) 0%, rgba(5, 2, 0, 0.59) 100%);">
             <div class="cp-corner tl"></div><div class="cp-corner tr"></div>
             <div class="cp-corner bl"></div><div class="cp-corner br"></div>
-            <div class="cp-badge" id="p3-badge-c">Četvrtak akcija</div>
+            <div class="cp-badge" id="p3-badge-c" style="border-radius: 3px;">Četvrtak akcija</div>
             <div class="cp-stars">✦ ✦ ✦</div>
-            <div class="cp-day">Happy<em id="p3-day-c"> Hour</em></div>
+            <div class="cp-day">Happy<em id="p3-day-c" style="border-radius: 3px;"> Hour</em></div>
             <div class="cp-divider"></div>
             <div class="cp-offer"><strong id="p3-offer-c">Kafa + kisela voda</strong><br>po posebnoj ceni</div>
-            <div class="cp-time" id="p3-time-c">10:00 – 11:00</div>
+            <div class="cp-time" id="p3-time-c" style="border-radius: 3px;">10:00 – 11:00</div>
           </div>
         </div>
         <div class="card-body">
-          <div class="card-kicker">Promo · Post 3</div>
+          <div class="card-kicker" id="p3-kicker" style="border-radius: 3px;">Promo · Post 3</div>
           <div class="card-title">Četvrtkom je posebno ✨</div>
-          <div class="card-text" id="p3-cap">Svaki četvrtak od 10 do 11h — kafa + kisela voda po akcijskoj ceni. Rezerviši svoje mesto. 🕙</div>
-          <div class="card-tags" id="p3-tags">#happyhour #harmonia #akcija #kafa #beograd #četvrtak #espresso</div>
+          <div class="card-text" id="p3-cap" style="border-radius: 3px;">Svaki četvrtak od 10 do 11h — kafa + kisela voda po akcijskoj ceni. Rezerviši svoje mesto. 🕙</div>
+          <div class="card-tags" id="p3-tags" style="border-radius: 3px;">#happyhour #harmonia #akcija #kafa #beograd #četvrtak #espresso</div>
         </div>
       </div>
 
       <!-- Card 4 -->
       <div class="card">
         <div class="card-img">
-          <img id="card-img-4" src="uploads/pomelli-image-7_20260303_231502.webp" alt="" style="filter:brightness(0.75) saturate(1.1) contrast(1.05);" data-upload-path="uploads/pomelli-image-7_20260303_231502.webp">
+          <img id="card-img-4" src="uploads/pomelli-image-7_20260304_100714.webp" alt="" style="filter: brightness(91%) saturate(120%) contrast(107%) sepia(0%);" data-upload-path="uploads/pomelli-image-7_20260304_100714.webp">
           <div class="card-morning-ov">
-            <div class="cm-text" id="p4-quote-c">"Svaka šoljica priča za sebe."</div>
+            <div class="cm-text" id="p4-quote-c" style="border-radius: 3px;">"Svaka šoljica priča za sebe."</div>
             <div class="cm-tag">harmonia_caffe</div>
           </div>
         </div>
         <div class="card-body">
-          <div class="card-kicker">Latte Art · Post 4</div>
-          <div class="card-title" id="p4-title">Umetnost u šoljici.</div>
-          <div class="card-text" id="p4-cap">Fokus je uvek na dobroj kafi. Svaka šoljica rađena s pažnjom — za tebe, za tvoj trenutak. ☕🤍</div>
-          <div class="card-tags" id="p4-tags">#latteart #harmonia #kafa #beograd #goodcoffee #premiumcoffee #coffeevibes</div>
+          <div class="card-kicker" id="p4-kicker" style="border-radius: 3px;">Latte Art · Post 4</div>
+          <div class="card-title" id="p4-title" style="border-radius: 3px;">Umetnost u šoljici.</div>
+          <div class="card-text" id="p4-cap" style="border-radius: 3px;">Fokus je uvek na dobroj kafi. Svaka šoljica rađena s pažnjom — za tebe, za tvoj trenutak. ☕🤍</div>
+          <div class="card-tags" id="p4-tags" style="border-radius: 3px;">#latteart #harmonia #kafa #beograd #goodcoffee #premiumcoffee #coffeevibes</div>
         </div>
       </div>
 
       <!-- Card 5 -->
       <div class="card">
         <div class="card-img">
-          <img id="card-img-5" src="uploads/pomelli-image-8_20260303_231516.webp" alt="" style="filter:brightness(0.78) saturate(1.3) contrast(1.1);" data-upload-path="uploads/pomelli-image-8_20260303_231516.webp">
-          <div class="card-coffee-ov"><div class="cc-label" id="p5-label-c">Rooster × Harmonia</div></div>
+          <img id="card-img-5" src="uploads/pomelli-image-8_20260304_100725.webp" alt="" style="filter: brightness(91%) saturate(120%) contrast(107%) sepia(0%);" data-upload-path="uploads/pomelli-image-8_20260304_100725.webp">
+          <div class="card-coffee-ov"><div class="cc-label" id="p5-label-c" style="border-radius: 3px;">Rooster × Harmonia</div></div>
         </div>
         <div class="card-body">
-          <div class="card-kicker">Brand Story · Post 5</div>
-          <div class="card-title" id="p5-title">Partneri u ljubavi prema kafi.</div>
-          <div class="card-text" id="p5-cap">Zajedno sa Rooster kafom širimo ljubav prema vrhunskim zrnima. Zato svaka šoljica kod nas ima karakter. 🫘</div>
-          <div class="card-tags" id="p5-tags">#rooster #harmonia #specialty #kafa #beogradskakafa #singleorigin</div>
+          <div class="card-kicker" id="p5-kicker" style="border-radius: 3px;">Brand Story · Post 5</div>
+          <div class="card-title" id="p5-title" style="border-radius: 3px;">Partneri u ljubavi prema kafi.</div>
+          <div class="card-text" id="p5-cap" style="border-radius: 3px;">Zajedno sa Rooster kafom širimo ljubav prema vrhunskim zrnima. Zato svaka šoljica kod nas ima karakter. 🫘</div>
+          <div class="card-tags" id="p5-tags" style="border-radius: 3px;">#rooster #harmonia #specialty #kafa #beogradskakafa #singleorigin</div>
         </div>
       </div>
 
       <!-- Card 6 -->
       <div class="card">
         <div class="card-img">
-          <img id="card-img-6" src="uploads/img_9111_20260303_231528.webp" alt="" data-upload-path="uploads/img_9111_20260303_231528.webp" style="display: block; filter: brightness(53%) saturate(110%);">
+          <img id="card-img-6" src="uploads/img_9111_20260304_100733.webp" alt="" data-upload-path="uploads/img_9111_20260304_100733.webp" style="display: block; filter: brightness(77%) saturate(110%);">
         </div>
         <div class="card-body">
-          <div class="card-kicker">Foto · Post 6</div>
-          <div class="card-title" id="p6-title">Tvoje mesto za predah.</div>
-          <div class="card-text" id="p6-cap">Isključi se na trenutak. Pronađi mir u harmoničnom ambijentu i najkvalitetnijem espresu u Žarkovu. 🌿</div>
-          <div class="card-tags" id="p6-tags">#harmonia #mir #jutro #kafa #beograd #espresso #ambijent #žarkovo</div>
+          <div class="card-kicker" id="p6-kicker" style="border-radius: 3px;">Foto · Post 6</div>
+          <div class="card-title" id="p6-title" style="border-radius: 3px;">Tvoje mesto za predah.</div>
+          <div class="card-text" id="p6-cap" style="border-radius: 3px;">Isključi se na trenutak. Pronađi mir u harmoničnom ambijentu i najkvalitetnijem espresu u Žarkovu. 🌿</div>
+          <div class="card-tags" id="p6-tags" style="border-radius: 3px;">#harmonia #mir #jutro #kafa #beograd #espresso #ambijent #žarkovo</div>
         </div>
       </div>
 
@@ -776,21 +776,21 @@ input[type=color].ctrl-color {
 
   <!-- STRATEGY -->
   <div class="strat-sec">
-    <div class="sec-kicker" id="sec3-kicker">Plan</div>
-    <div class="sec-title" id="sec3-title">Šta i zašto <em>objavljujemo</em></div>
-    <div class="sec-desc" id="sec3-desc" style="margin-bottom:24px;">Svaka objava spada u jednu od tri kategorije. To nije slučajno — tako feed ima ritam i svaki post ima smisla.</div>
+    <div class="sec-kicker" id="sec3-kicker" style="border-radius: 3px;">Plan</div>
+    <div class="sec-title" id="sec3-title" style="border-radius: 3px;">Šta i zašto <em>objavljujemo</em></div>
+    <div class="sec-desc" id="sec3-desc" style="margin-bottom: 24px; border-radius: 3px;">Svaka objava spada u jednu od tri kategorije. To nije slučajno — tako feed ima ritam i svaki post ima smisla.</div>
     <div class="pillars">
-      <div class="pillar"><span class="pillar-icon" id="pillar-icon-1"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8h1a4 4 0 0 1 0 8h-1"></path><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="2" x2="6" y2="4"></line><line x1="10" y1="2" x2="10" y2="4"></line><line x1="14" y1="2" x2="14" y2="4"></line></svg></span><div class="pillar-title" id="pillar-title-1">Produkt &amp; Kvalitet</div><div class="pillar-text" id="pillar-text-1">Bliski kadrovi kafe i zrna koji govore o posvećenosti. Rooster saradnja kao dokaz premium standarda.</div></div>
-      <div class="pillar"><span class="pillar-icon" id="pillar-icon-2"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span><div class="pillar-title" id="pillar-title-2">Emocija &amp; Ambijent</div><div class="pillar-text" id="pillar-text-2">Ambijent koji stvara osećaj — Harmonia nije samo kafa, to je tvoje jutarnje utočište.</div></div>
-      <div class="pillar"><span class="pillar-icon" id="pillar-icon-3"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></span><div class="pillar-title" id="pillar-title-3">Promocije &amp; Akcije</div><div class="pillar-text" id="pillar-text-3">Happy Hour četvrtkom generiše redovne posetioce. Jasna ponuda, pravo vreme, prava publika.</div></div>
+      <div class="pillar"><span class="pillar-icon" id="pillar-icon-1"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8h1a4 4 0 0 1 0 8h-1"></path><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="2" x2="6" y2="4"></line><line x1="10" y1="2" x2="10" y2="4"></line><line x1="14" y1="2" x2="14" y2="4"></line></svg></span><div class="pillar-title" id="pillar-title-1" style="border-radius: 3px;">Produkt &amp; Kvalitet</div><div class="pillar-text" id="pillar-text-1" style="border-radius: 3px;">Bliski kadrovi kafe i zrna koji govore o posvećenosti. Rooster saradnja kao dokaz premium standarda.</div></div>
+      <div class="pillar"><span class="pillar-icon" id="pillar-icon-2"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span><div class="pillar-title" id="pillar-title-2" style="border-radius: 3px;">Emocija &amp; Ambijent</div><div class="pillar-text" id="pillar-text-2" style="border-radius: 3px;">Ambijent koji stvara osećaj — Harmonia nije samo kafa, to je tvoje jutarnje utočište.</div></div>
+      <div class="pillar"><span class="pillar-icon" id="pillar-icon-3"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></span><div class="pillar-title" id="pillar-title-3" style="border-radius: 3px;">Promocije &amp; Akcije</div><div class="pillar-text" id="pillar-text-3" style="border-radius: 3px;">Happy Hour četvrtkom generiše redovne posetioce. Jasna ponuda, pravo vreme, prava publika.</div></div>
     </div>
   </div>
 
   <!-- FOOTER -->
   <div class="ftr">
     <div class="ftr-logo"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""></div>
-    <div class="ftr-name" id="ftr-brand-name">Harmonia Caffe</div>
-    <div class="ftr-sub" id="ftr-brand-sub">Premium Coffee · Žarkovo, Beograd · @harmonia_caffe</div>
+    <div class="ftr-name" id="ftr-brand-name" style="border-radius: 3px;">Harmonia Caffe</div>
+    <div class="ftr-sub" id="ftr-brand-sub" style="border-radius: 3px;">Premium Coffee · Žarkovo, Beograd · @harmonia_caffe</div>
   </div>
 
 </div>
@@ -805,4 +805,4 @@ input[type=color].ctrl-color {
 
 
 
-<div id="give-freely-root-kkkbiiikppgjdiebcabomlbidfodipjg" class="give-freely-root" data-extension-id="kkkbiiikppgjdiebcabomlbidfodipjg" data-extension-name="Substital: Add subtitles to videos and movies" style="display: block;"></div><deepl-input-controller translate="no"></deepl-input-controller><span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span><div style="position: relative;" id="zp-13-0-2-licdn-root-apollo_everywhere"><div class="zp apolloio-css-vars-reset x_lAIzV x_ktWFc" dir="ltr" data-has-tooltip-listener=""><div class="x_BJJxg" data-disable-focus-trap="true"></div><div class="x_KfhZL" aria-live="polite" aria-atomic="true" data-disable-focus-trap="true" data-testid="toast-container-top"></div><span data-name="tooltip-listener" aria-hidden="true" style="display: none;"></span></div> </div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
+<div id="give-freely-root-kkkbiiikppgjdiebcabomlbidfodipjg" class="give-freely-root" data-extension-id="kkkbiiikppgjdiebcabomlbidfodipjg" data-extension-name="Substital: Add subtitles to videos and movies" style="display: block;"></div><deepl-input-controller translate="no"></deepl-input-controller><span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span><div style="position: relative;" id="zp-13-0-2-licdn-root-apollo_everywhere"><div class="zp apolloio-css-vars-reset x_lAIzV x_ktWFc" dir="ltr" data-has-tooltip-listener=""><div class="x_BJJxg" data-disable-focus-trap="true"></div><div class="x_KfhZL" aria-live="polite" aria-atomic="true" data-disable-focus-trap="true" data-testid="toast-container-top"></div><span data-name="tooltip-listener" aria-hidden="true" style="display: none;"></span></div> </div><span id="PING_CONTENT_DLS_POPUP" style="display: none;"></span><div style="background-color: transparent; border: none; bottom: 15px; display: block; margin: 0px; opacity: 1; padding: 0px; position: fixed; right: 15px; z-index: 2147483647;"></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
